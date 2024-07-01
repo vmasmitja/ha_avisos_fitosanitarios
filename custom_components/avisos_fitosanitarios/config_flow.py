@@ -6,7 +6,7 @@ from .const import DOMAIN, TIPOS_CULTIVOS
 class AvisosFitosanitariosConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     VERSION = 1
 
-    def async_step_user(self, user_input=None):
+    async def async_step_user(self, user_input=None):
         if user_input is not None:
             return self.async_create_entry(title="Avisos Fitosanitarios", data=user_input)
 
@@ -18,3 +18,7 @@ class AvisosFitosanitariosConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         })
 
         return self.async_show_form(step_id="user", data_schema=data_schema)
+
+    async def async_step_import(self, user_input=None):
+        return await self.async_step_user(user_input)
+

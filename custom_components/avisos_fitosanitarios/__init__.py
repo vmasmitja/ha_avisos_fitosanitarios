@@ -4,6 +4,7 @@ import voluptuous as vol
 from homeassistant.const import CONF_NAME
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.typing import ConfigType
+from homeassistant.config_entries import ConfigEntry
 
 from .const import DOMAIN
 
@@ -22,7 +23,7 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     hass.states.async_set(f"{DOMAIN}.setup", "complete")
     return True
 
-async def async_setup_entry(hass, config_entry):
+async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry) -> bool:
     hass.async_add_job(setup_lovelace, hass)
     return True
 
@@ -46,3 +47,4 @@ async def setup_lovelace(hass: HomeAssistant):
         f.write(lovelace_config)
 
     hass.components.lovelace.reload_lovelace()
+
