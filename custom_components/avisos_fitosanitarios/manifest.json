@@ -1,7 +1,7 @@
 {
   "domain": "avisos_fitosanitarios",
   "name": "Avisos Fitosanitarios",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "documentation": "https://github.com/vmasmitja/ha_avisos_fitosanitarios",
   "dependencies": [],
   "codeowners": ["@vmasmitja"],

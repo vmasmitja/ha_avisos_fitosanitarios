@@ -24,10 +24,10 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     return True
 
 async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry) -> bool:
-    hass.async_add_job(setup_lovelace, hass)
+    await hass.async_add_executor_job(setup_lovelace, hass)
     return True
 
-async def setup_lovelace(hass: HomeAssistant):
+def setup_lovelace(hass: HomeAssistant):
     lovelace_path = os.path.join(
         hass.config.path(), ".storage", "lovelace"
     )
@@ -47,4 +47,3 @@ async def setup_lovelace(hass: HomeAssistant):
         f.write(lovelace_config)
 
     hass.components.lovelace.reload_lovelace()
-
