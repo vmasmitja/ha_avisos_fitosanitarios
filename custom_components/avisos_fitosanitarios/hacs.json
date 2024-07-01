@@ -1,0 +1,14 @@
+{
+    "name": "Avisos Fitosanitarios",
+    "content_in_root": false,
+    "domains": ["avisos_fitosanitarios"],
+    "iot_class": "Cloud Polling",
+    "render_readme": true,
+    "country": "ES",
+    "filename": "custom_components/avisos_fitosanitarios/manifest.json",
+    "zip_release": false,
+    "homeassistant": "2024.06.3",
+    "persistent_directory": "custom_components/avisos_fitosanitarios",
+    "issue_tracker": "https://github.com/vmasmitja/ha_avisos_fitosanitarios/issues"
+  }
+  
