@@ -2,6 +2,11 @@
 
 Esta es una integración para Home Assistant que recopila y muestra avisos fitosanitarios emitidos por la Generalitat de Catalunya. La integración permite configurar qué categorías y cultivos deseas monitorizar y muestra los avisos en Lovelace.
 
+[![GitHub Release][releases-shield]][releases]
+[![License][license-shield]](LICENSE.md)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+![Project Maintenance][maintenance-shield]
+
 ## Características
 
 - Recoge y muestra avisos fitosanitarios de la Generalitat de Catalunya.
