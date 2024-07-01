@@ -1,0 +1,33 @@
+title: Avisos Fitosanitarios
+views:
+  - title: Avisos
+    cards:
+      - type: entities
+        title: Avisos Leñosos
+        entities:
+          - sensor.avisos_fitosanitarios_leñosos_viña_vinya_vitis_vinifera
+          - sensor.avisos_fitosanitarios_leñosos_olivo_olivera_olea_europaea
+          - sensor.avisos_fitosanitarios_leñosos_almendro_ametller_prunus_dulcis
+      - type: entities
+        title: Avisos Hortícolas
+        entities:
+          - sensor.avisos_fitosanitarios_hortícolas_tomate_tomàquet_solanum_lycopersicum
+          - sensor.avisos_fitosanitarios_hortícolas_pimiento_pebroter_capsicum_annuum
+          - sensor.avisos_fitosanitarios_hortícolas_calabacín_carbassó_cucurbita_pepo
+          - sensor.avisos_fitosanitarios_hortícolas_judía_verde_mongeta_phaseolus_vulgaris
+          - sensor.avisos_fitosanitarios_hortícolas_puerro_porro_allium_ampeloprasum_var_porrum
+          - sensor.avisos_fitosanitarios_hortícolas_col_brassica_oleracea_var_capitata
+          - sensor.avisos_fitosanitarios_hortícolas_coliflor_brassica_oleracea_var_botrytis
+          - sensor.avisos_fitosanitarios_hortícolas_patata_solanum_tuberosum
+          - sensor.avisos_fitosanitarios_hortícolas_fresa_maduixa_fragaria_x_ananassa
+      - type: entities
+        title: Avisos Extensivos
+        entities:
+          - sensor.avisos_fitosanitarios_extensivos_maíz_blat_de_moro_zea_mays
+          - sensor.avisos_fitosanitarios_extensivos_girasol_gira_sol_helianthus_annuus
+          - sensor.avisos_fitosanitarios_extensivos_trigo_blat_triticum_spp
+      - type: entities
+        title: Avisos Espacios Verdes
+        entities:
+          - sensor.avisos_fitosanitarios_espacios_verdes_plátano_de_sombra_plataner_platanus_x_hispanica
+          - sensor.avisos_fitosanitarios_espacios_verdes_césped_gespa_poaceae
