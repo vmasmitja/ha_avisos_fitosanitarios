@@ -1,10 +1,14 @@
 {
   "domain": "avisos_fitosanitarios",
   "name": "Avisos Fitosanitarios",
-  "version": "1.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/vmasmitja/ha_avisos_fitosanitarios",
   "dependencies": [],
   "codeowners": ["@vmasmitja"],
   "requirements": ["requests", "beautifulsoup4", "PyPDF2"],
-  "iot_class": "cloud_polling"
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "icon": "custom_components/avisos_fitosanitarios/icon.png",
+  "logo": "custom_components/avisos_fitosanitarios/logo.png"
 }
+
