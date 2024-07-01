@@ -9,19 +9,13 @@ Esta es una integración para Home Assistant que recopila y muestra avisos fitos
 - Notificaciones sobre nuevos cultivos encontrados en los avisos.
 - Incluye una tarjeta Lovelace predefinida para mostrar los avisos.
 
-## Estructura de Archivos
+La información extraída de los avisos procede del Departament d´Acció Climàtica, Alimentació i Agenda rural: https://agricultura.gencat.cat/ca/ambits/agricultura/dar_sanitat_vegetal_nou/avisos-fitosanitaris/
 
-ha_avisos_fitosanitarios/
-├── custom_components/
-│   └── avisos_fitosanitarios/
-│       ├── init.py
-│       ├── api.py
-│       ├── catalunya.py
-│       ├── config_flow.py
-│       ├── const.py
-│       ├── lovelace.yaml
-│       ├── manifest.json
-│       └── sensor.py
+## Requerimientos
+
+En el caso de uso de la integración con OpenAI para la extracción de información de los boletines necesitarás tener a mano tu información para la API de ChatGPT.
+
+También necesitas tener la instancia de HACS funcionando en tu Home Assistant
 
 ## Instalación
 
@@ -86,5 +80,4 @@ Contribución
 
 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
-
+Este proyecto está licenciado bajo la Licencia MIT.
