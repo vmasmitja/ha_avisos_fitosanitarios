@@ -73,11 +73,11 @@ views:
         entities:
           - sensor.avisos_fitosanitarios_espacios_verdes_plátano_de_sombra_plataner_platanus_x_hispanica
           - sensor.avisos_fitosanitarios_espacios_verdes_césped_gespa_poaceae
-
-### Contribución
+```
+## Contribución
 
 ¡Contribuciones son bienvenidas! Si encuentras algún problema o tienes alguna mejora, no dudes en abrir un issue o enviar un pull request.
 
-### Licencia
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT.
